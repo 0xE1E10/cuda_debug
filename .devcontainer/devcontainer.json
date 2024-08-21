@@ -1,0 +1,17 @@
+{
+  "name": "CUDA 12.4",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "hostRequirements": {
+    "gpu": true
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools-extension-pack",
+        "nvidia.nsight-vscode-edition"
+      ]
+    }
+  }
+}
